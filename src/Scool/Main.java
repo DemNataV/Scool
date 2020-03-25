@@ -8,7 +8,7 @@ public class Main {
         Student student4 = new Student("Лена",10, "литература");
         Student student5 = new Student("Оля",12, "алгебра");
 
-        Teacher teacher1 = new Teacher("Олга Генадьевна",30, "алгебра");
+        Teacher teacher1 = new Teacher("Ольга Генадьевна",30, "алгебра");
         Teacher teacher2 = new Teacher("Петр Гаврилович",22, "химия");
         Teacher teacher3 = new Teacher("Галина Федоровна",47, "физика");
 
@@ -19,7 +19,7 @@ public class Main {
         school.addStudent(student1, student2, student3, student4, student5);
         school.addTeacher(teacher1, teacher2, teacher3);
 
-        school.schoolDay();
+        for (int i = 0; i < 10; i++) school.schoolDay();
 
 
 

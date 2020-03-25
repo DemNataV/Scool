@@ -39,7 +39,7 @@ public class Student
 
     @Override
     public void enhanceKnowledge() {
-        level++;
+        level = level + (int) (Math.random()*10);
         System.out.println(toString());
 
     }

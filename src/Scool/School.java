@@ -93,7 +93,9 @@ break;
     }
 
     void schoolDay(){
+        director.beginClass();
         for (int i = 0; i < teachers.length; i++) {
+
             if (teachers[i] != null) {
                 for (int j = 0; j < students.length; j++) {
                     if (students[j] != null) {
@@ -106,7 +108,9 @@ break;
                 }
 
             }
+
         }
+        director.endClass();
 
     };
 }

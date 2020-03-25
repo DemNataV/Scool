@@ -7,10 +7,10 @@ public class Director
     }
 
     void  beginClass(){
-        System.out.println("Начало занятий");
+        System.out.println(name + " объявляет начало занятий");
     };
 
     void  endClass(){
-        System.out.println("Окончание занятий");
+        System.out.println(name + " объявляет окончание занятий");
     };
 }
